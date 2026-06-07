@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Sanika Santosh Kathe - Developer" />
+
+  <title>Sanika Santosh Kathe | Developer Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- ===== Header / Navbar ===== -->
+  <header class="header" id="top">
+    <div class="container nav-container">
+      <div class="logo">
+        <a href="#top">Sanika<span>.</span></a>
+      </div>
+
+      <nav class="nav" id="navbar">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#timeline" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+        </ul>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <p class="hero-intro">Hello, I'm</p>
+        <h1 class="hero-title">Sanika Santosh Kathe</h1>
+        <h2 class="hero-subtitle">AI Engineer</h2>
+        <p class="hero-text">
+          I build modern, scalable, and user-focused applications across web, IoT, and blockchain.
+          Passionate about solving real-world problems with clean code and thoughtful design.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary-btn">View My Work</a>
+          <a href="#contact" class="btn ghost-btn">Hire Me</a>
+        </div>
+        <div class="hero-tags">
+          <span>AI & ML</span>
+          <span>Data Science</span>
+          <span>Computer Vision</span>
+          <span>Deep Learning</span>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper reveal">
+        <!-- Replace profile.jpg with your actual image in /images -->
+        <div class="hero-image-circle">
+          <img src="images/profile.png" alt="Portrait of Sanika Santosh Kathe" />
+        </div>
+        <div class="hero-floating-card">
+          <p>Open to AI Engineer internships & roles</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section class="section about" id="about">
+    <div class="container section-container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">A quick introduction</p>
+      </div>
+
+      <div class="about-grid reveal">
+        <div class="about-text">
+          <p>
+            I'm <strong>Sanika Santosh Kathe</strong>, an AI Engineer-in-training with a strong foundation in
+            <strong>Machine Learning</strong>, <strong>Deep Learning</strong>, <strong>Computer Vision</strong>, and
+            <strong>Full Stack Development</strong>. I build data-driven systems and deploy ML models for real-world use.
+          </p>
+          <p>
+            My projects range from secure online voting systems using hybrid blockchain to intelligent
+            IoT-driven systems and AI-based applications like facial recognition and recommendation engines.
+          </p>
+          <p>
+            I'm continuously learning and exploring new technologies to write cleaner, more efficient, and
+            impactful code.
+          </p>
+        </div>
+
+        <div class="about-cards">
+          <div class="about-card">
+            <h3>What I Do</h3>
+            <ul>
+              <li>Design & develop full-stack web applications</li>
+              <li>Build intelligent systems with AI / ML</li>
+              <li>Integrate Blockchain for secure workflows</li>
+              <li>Create IoT-based smart automation solutions</li>
+            </ul>
+          </div>
+          <div class="about-card">
+            <h3>Tech Snapshot</h3>
+            <ul>
+              <li>JavaScript, Python, Java</li>
+              <li>React, Flask</li>
+              <li>MongoDB & Databases</li>
+              <li>IoT & Embedded Logic</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section class="section skills" id="skills">
+    <div class="container section-container">
+      <div class="section-header">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-subtitle">Tech stack & tools I use</p>
+      </div>
+
+      <div class="skills-grid reveal">
+        <!-- Left: Progress bars -->
+          <div class="skills-bars">
+          <!-- Each skill bar uses data-skill for percentage animation -->
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Python & ML</span>
+              <span>92%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-fill" data-skill="92"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Machine Learning</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-fill" data-skill="90"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Deep Learning</span>
+              <span>88%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-fill" data-skill="88"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Data Analysis</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-fill" data-skill="90"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Computer Vision</span>
+              <span>86%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-fill" data-skill="86"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Databases & MongoDB</span>
+              <span>84%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-fill" data-skill="84"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Skill icon tags -->
+        <div class="skills-tags">
+          <div class="skills-tag-card">
+            <h3>Core</h3>
+            <div class="tag-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Python</span>
+              <span>Java</span>
+            </div>
+          </div>
+          <div class="skills-tag-card">
+            <h3>Frameworks</h3>
+            <div class="tag-list">
+              <span>React</span>
+              <span>Flask</span>
+              <span>Bootstrap</span>
+            </div>
+          </div>
+          <div class="skills-tag-card">
+            <h3>ML & Data</h3>
+            <div class="tag-list">
+              <span>NumPy</span>
+              <span>Pandas</span>
+              <span>Scikit-learn</span>
+              <span>TensorFlow</span>
+              <span>Keras</span>
+              <span>Matplotlib</span>
+              <span>Seaborn</span>
+              <span>Power BI</span>
+              <span>Tableau</span>
+              <span>MongoDB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section class="section projects" id="projects">
+    <div class="container section-container">
+      <div class="section-header">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-subtitle">Some of the work I'm proud of</p>
+      </div>
+
+      <div class="projects-grid reveal">
+        <!-- Project Card 1 -->
+        <article class="project-card">
+          <div class="project-badge">Blockchain · Security</div>
+          <h3 class="project-title">Hybrid Blockchain-Based Multi-Factor Authentication Online Voting System</h3>
+           <div class="project-image-wrapper">
+             <!-- Put a screenshot at images/project-voting.jpg -->
+             <img src="images/project-voting.png" alt="Screenshot of Hybrid Blockchain-Based Online Voting System" class="project-image" />
+           </div>
+          <p class="project-description">
+            A secure online voting platform leveraging hybrid blockchain architecture and multi-factor
+            authentication to ensure transparency, immutability, and voter privacy.
+          </p>
+          <ul class="project-tags">
+            <li>Blockchain</li>
+            <li>Python / Flask</li>
+            <li>Security</li>
+          </ul>
+        </article>
+
+        <!-- Project Card 2 -->
+        <article class="project-card">
+          <div class="project-badge">AI · Developer Tool</div>
+          <h3 class="project-title">Smart C Code Assistant</h3>
+           <div class="project-image-wrapper">
+             <!-- Put a screenshot at images/project-c-assistant.jpg -->
+             <img src="images/project-cchat.PNG" alt="Screenshot of Smart C Code Assistant" class="project-image" />
+           </div>
+          <p class="project-description">
+            An intelligent assistant that helps developers write, debug, and optimize C code with smart
+            suggestions and real-time feedback.
+          </p>
+          <ul class="project-tags">
+            <li>AI</li>
+            <li>C / Python</li>
+            <li>Developer Tools</li>
+          </ul>
+        </article>
+
+        <!-- Project Card 3 -->
+        <article class="project-card">
+          <div class="project-badge">Computer Vision</div>
+          <h3 class="project-title">Face Recognition and Detection</h3>
+           <div class="project-image-wrapper">
+             <!-- Put a screenshot at images/project-face-recognition.jpg -->
+             <img src="images/project-face-recognition.jpg" alt="Screenshot of Face Recognition and Detection System" class="project-image" />
+           </div>
+          <p class="project-description">
+            A robust system capable of detecting and recognizing human faces in real time using deep learning
+            and computer vision techniques.
+          </p>
+          <ul class="project-tags">
+            <li>Python</li>
+            <li>OpenCV</li>
+            <li>Deep Learning</li>
+          </ul>
+        </article>
+
+        <!-- Project Card 4 -->
+        <article class="project-card">
+          <div class="project-badge">AI · Safety</div>
+          <h3 class="project-title">Driver Drowsiness System</h3>
+           <div class="project-image-wrapper">
+             <!-- Put a screenshot at images/project-drowsiness.jpg -->
+             <img src="images/project-drowsiness.jpg" alt="Screenshot of Driver Drowsiness Detection System" class="project-image" />
+           </div>
+          <p class="project-description">
+            An AI-based monitoring system that detects driver drowsiness using eye and facial cues to issue
+            real-time alerts and prevent accidents.
+          </p>
+          <ul class="project-tags">
+            <li>Computer Vision</li>
+            <li>IoT</li>
+            <li>Safety</li>
+          </ul>
+        </article>
+
+        <!-- Project Card 5 -->
+        <article class="project-card">
+          <div class="project-badge">ML · Analytics</div>
+          <h3 class="project-title">Movie Recommendation System</h3>
+           <div class="project-image-wrapper">
+             <!-- Put a screenshot at images/project-movie-rec.jpg -->
+             <img src="images/project-movie.PNG" alt="Screenshot of Movie Recommendation System" class="project-image" />
+           </div>
+          <p class="project-description">
+            A recommendation engine that suggests movies based on user preferences, behavior, and similarity
+            metrics using machine learning.
+          </p>
+          <ul class="project-tags">
+            <li>Machine Learning</li>
+            <li>Python</li>
+            <li>Data Science</li>
+          </ul>
+        </article>
+
+        <!-- Project Card 6 -->
+        <article class="project-card">
+          <div class="project-badge">Finance · ML</div>
+          <h3 class="project-title">Fraud Detection</h3>
+           <div class="project-image-wrapper">
+             <!-- Put a screenshot at images/project-fraud.jpg -->
+             <img src="images/project-fraud.jpg" alt="Screenshot of Fraud Detection System" class="project-image" />
+           </div>
+          <p class="project-description">
+            A fraud detection system that uses machine learning models to identify suspicious transactions and
+            patterns in financial data.
+          </p>
+          <ul class="project-tags">
+            <li>ML</li>
+            <li>Python</li>
+            <li>Analytics</li>
+          </ul>
+        </article>
+
+        <!-- Project Card 7 -->
+        <article class="project-card">
+          <div class="project-badge">Computer Vision</div>
+          <h3 class="project-title">Face, Eye & Smile Detection</h3>
+           <div class="project-image-wrapper">
+             <!-- Put a screenshot at images/project-face-eye-smile.jpg -->
+             <img src="images/project-smile.PNG" alt="Screenshot of Face, Eye & Smile Detection System" class="project-image" />
+           </div>
+          <p class="project-description">
+            A real-time detection system that identifies faces, eyes, and smiles using classical image
+            processing and deep learning methods.
+          </p>
+          <ul class="project-tags">
+            <li>OpenCV</li>
+            <li>Python</li>
+            <li>Vision</li>
+          </ul>
+        </article>
+
+        <!-- Project Card 8 -->
+        <article class="project-card">
+          <div class="project-badge">IoT · Fuzzy Logic</div>
+          <h3 class="project-title">Smart Fuzzy Washing Machine System</h3>
+           <div class="project-image-wrapper">
+             <!-- Put a screenshot at images/project-washing-machine.jpg -->
+             <img src="images/result1.png" alt="Screenshot of Smart Fuzzy Washing Machine System" class="project-image" />
+           </div>
+          <p class="project-description">
+            An IoT-powered washing machine prototype using fuzzy logic to automatically optimize wash cycles
+            based on load and fabric type.
+          </p>
+          <ul class="project-tags">
+            <li>IoT</li>
+            <li>Embedded</li>
+            <li>Fuzzy Logic</li>
+          </ul>
+        </article>
+
+        <!-- Project Card 9 -->
+        <article class="project-card">
+          <div class="project-badge">Full Stack · E‑Commerce</div>
+          <h3 class="project-title">E‑Commerce Shop Website</h3>
+           <div class="project-image-wrapper">
+             <!-- Put a screenshot at images/project-ecommerce.jpg -->
+             <img src="images/project-ecommerce.png" alt="Screenshot of E‑Commerce Shop Website" class="project-image" />
+           </div>
+          <p class="project-description">
+            A full-stack e-commerce web application with product listing, cart functionality, and checkout
+            flow, built with a modern UI.
+          </p>
+          <ul class="project-tags">
+            <li>Full Stack</li>
+            <li>React / JS</li>
+            <li>MongoDB</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Experience / Education Timeline ===== -->
+  <section class="section timeline" id="timeline">
+    <div class="container section-container">
+      <div class="section-header">
+        <h2 class="section-title">Experience & Education</h2>
+        <p class="section-subtitle">My journey so far</p>
+      </div>
+
+      <div class="timeline-wrapper reveal">
+        <!-- Timeline item - Education -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Present</span>
+            <h3 class="timeline-title">B.E. Information Technology — University of Mumbai</h3>
+            <p class="timeline-description">
+              Bachelor of Engineering in Information Technology (Pursuing — Semester 8). Honour subject: Artificial Intelligence & Machine Learning. CGPA: 8.76 / 10 (up to Semester 7).
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline item - IBM SkillsBuild Internship -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Oct 2024 – Nov 2024</span>
+            <h3 class="timeline-title">Machine Learning Intern — IBM SkillsBuild</h3>
+            <p class="timeline-description">
+              Trained in machine learning concepts and model development using Python and Scikit-learn; completed guided projects and practical assignments.
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline item - AI / CNN Internship -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Jul 2025 – Oct 2025</span>
+            <h3 class="timeline-title">AI / CNN Intern — International Institute of SDGs and Public Policy Research</h3>
+            <p class="timeline-description">
+              Worked on convolutional neural network concepts and implementations; assisted in research tasks and model development for imaging projects.
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline item - Future -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Future</span>
+            <h3 class="timeline-title">Full‑time Developer Roles</h3>
+            <p class="timeline-description">
+              Actively seeking opportunities to contribute to impactful products and grow as a developer in a
+              collaborative team.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section class="section contact" id="contact">
+    <div class="container section-container contact-container">
+      <div class="section-header">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">Let’s build something great together</p>
+      </div>
+
+      <div class="contact-grid reveal">
+        <!-- Contact Info / Socials -->
+        <div class="contact-info">
+          <p>
+            If you’d like to discuss a project, collaboration, or opportunity, feel free to reach out
+            using the form or through my social profiles.
+          </p>
+
+          <div class="contact-details">
+            <p><strong>Email:</strong> sanikakathe3@gmail.com</p>
+            <p><strong>Location:</strong> Mumbai, India</p>
+          </div>
+
+          <div class="social-links">
+            <!-- Replace # with your actual profile links -->
+            <a href="https://github.com/ksanika3" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/sanika-kathe3/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="#" target="_blank" rel="noopener">Portfolio</a>
+          </div>
+        </div>
+
+        <!-- Contact Form (Frontend only) -->
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name<span>*</span></label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email<span>*</span></label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject<span>*</span></label>
+            <input type="text" id="subject" name="subject" placeholder="How can I help you?" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message<span>*</span></label>
+            <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn primary-btn full-width">Send Message</button>
+
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>© <span id="year"></span> Sanika Santosh Kathe. All rights reserved.</p>
+      <a href="#top" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
